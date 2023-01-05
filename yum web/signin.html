@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+    <link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"
+      rel="stylesheet" />
+    <link rel="shortcut icon" href="selection-unscreen.gif" type="gif">
+    <link rel="icon" type="image/x-icon" href="faviconYUM.ico">
+
+    <title>YUM-SignIn</title>
+    <style>
+      #yumlogo{
+        margin: 1CM ;
+        border: 0%;
+        padding-top:1%;
+    width:200px;
+    height: 200px;
+      }
+      #FRESHMEATS{
+        color: rgb(255, 191, 0) ;
+        margin-left:1CM;
+      }
+    </style>
+  </head>
+
+  <body><img src="Yum ORG-modified.png" id="yumlogo">
+    <h2 id="FRESHMEATS"">ONLY FRESH MEATS</h2>
+    <nav>
+      <!-- <label class="logo">FoodoFest</label> -->
+      <!-- <img src="Yum ORG-modified.png" width="200px" height="200px" id="yumlogo"> -->
+      <ul>
+        <li><a class="active" href="index.html">Home</a></li>
+        <li><a href="#">About</a></li>
+        <!-- <li><a href="#">Services</a></li> -->
+        <li><a href="contactus.html">Contact</a></li>
+        <li><a href="signin.html">Sign In</a></li>
+      </ul>
+    </nav>
+    <section class="head">
+      <video autoplay muted infinite loop id="myVideo">
+        <source src="bac.mp4" type="video/mp4">
+      </video>
+      <div class="center">
+        <h1>Login</h1>
+        <form method="post" action="landing.html">
+          <div class="txt_field">
+            <input type="text" required>
+            <span></span>
+            <label>Username</label>
+          </div>
+          <div class="txt_field">
+            <input type="password" required>
+            <span></span>
+            <label>Password</label>
+          </div>
+          <div class="pass">Forgot Password?</div>
+          <a href="landing.html" id="login_btn" class="login_btn1"> Login</a>
+          <div class="signup_link">
+            Not a member? <a href="signup.html">Signup</a>
+          </div>
+          <!-- <a href="landing.html" >login</a> -->
+        </form>
+      </div>
+
+    </section>
+    <section id="features">
+      <div class="container">
+        <div class="feature-top">
+          <h1>Order Now</h1>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corrupti
+            sunt explicabo soluta veritatis rerum eum
+            est inventore esse nisi sed, impedit quos quae!</p>
+
+        </div>
+        <div class="feature-container">
+          <div class="featureitem">
+            <span class="material-symbols-outlined">restaurant</span>
+            <h4>Hygienic</h4>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Deserunt eum facilis nam aperiam vel iusto ex?
+            </p>
+          </div>
+          <div class="featureitem">
+            <span class="material-symbols-outlined">pin_drop</span>
+            <h4>Live Order Tracking</h4>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Deserunt eum facilis nam aperiam vel iusto ex?
+            </p>
+          </div>
+          <div class="featureitem">
+            <span class="material-symbols-outlined">dinner_dining</span>
+            <h4>Dinner Dining </h4>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Deserunt eum facilis nam aperiam vel iusto ex?
+            </p>
+          </div>
+        </div>
+      </div>
+      <footer>
+        <section class="footer">
+          <div class="social">
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-snapchat"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+          </div>
+          <ul class="list">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Terms</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+          </ul>
+          <p class="copy">Foodofest@2022</p>
+        </section>
+      </footer>
+    </section>
+  </body>
+
+</html>
